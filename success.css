@@ -1,0 +1,87 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f6ff; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+}
+
+h1 {
+  color: #ff6600; 
+  font-size: 3em;
+  margin: 0 20px;
+  z-index: 10;
+}
+
+
+@keyframes confettiEffect {
+  0% {
+    opacity: 1;
+    transform: translateY(0) rotate(0deg);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-800px) rotate(720deg); 
+  }
+}
+
+/* Confetti container */
+.firework {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: confettiEffect 5s ease-out forwards; 
+  opacity: 0;
+}
+
+
+.firework:nth-child(1) {
+  background-color: #ff6347; 
+  left: 30%;
+  animation-delay: 0s;
+}
+
+.firework:nth-child(2) {
+  background-color: #ffcc00; 
+  left: 50%;
+  animation-delay: 0.2s;
+}
+
+.firework:nth-child(3) {
+  background-color: #32cd32; 
+  left: 70%;
+  animation-delay: 0.4s;
+}
+
+.firework:nth-child(4) {
+  background-color: #00bfff; 
+  left: 40%;
+  animation-delay: 0.6s;
+}
+
+.firework:nth-child(5) {
+  background-color: #9932cc; 
+  left: 60%;
+  animation-delay: 0.8s;
+}
+
+.firework:nth-child(6) {
+  background-color: #ff1493; 
+  left: 80%;
+  animation-delay: 1s;
+}
+
+/* Mobile-friendly adjustment*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em; 
+  }
+}

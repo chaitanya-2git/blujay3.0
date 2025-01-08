@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blujay Techn - Professional Courses</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+      
+<!-- HTML -->
+<nav class="navbar">
+  <div class="container">
+    <!-- Branding Logo on the Left -->
+    <div class="logo">
+      <img src="assets/logo.png" alt="Blujay Techn Logo">
+    </div>
+    <!-- Hamburger Menu for Small Screens -->
+    <div class="menu-icon" id="menu-icon">
+      &#9776; <!-- Hamburger Icon -->
+    </div>
+    <!-- Navigation Links -->
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li class="dropdown">
+        <a href="services.html">Services</a>
+        <ul class="dropdown-menu">
+          <li><a href="services.html?service=online-training">Online Training</a></li>
+          <li><a href="services.html?service=classroom-training">Classroom Training</a></li>
+          <li><a href="services.html?service=corporate-training">Corporate Training</a></li>
+          <li><a href="services.html?service=internships">Internships</a></li>
+        </ul>
+      </li>
+      <li><a href="#courses">Courses Offering</a></li>
+      <li class="dropdown">
+        <a href="#careers">Careers</a>
+        <ul class="dropdown-menu">
+          <li><a href="#software-jobs">Software Jobs</a></li>
+          <li><a href="#internships">Internships</a></li>
+          <li><a href="#course-register">Course Register</a></li>
+        </ul>
+      </li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li>
+      <a href="register.html" class="register-btn">Register Now</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+ <header id="home" class="hero-section">
+    <div class="swiper">
+      <!-- Wrapper for slides -->
+      <div class="swiper-wrapper">
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="slide-content">
+          </div>
+          <img src="hero-slide1 (1).jpg" alt="Slide 1 Background" class="slide-bg">
+        </div>
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="slide-content">
+            
+          </div>
+          <img src="hero-slide2 (1).jpg" alt="Slide 2 Background" class="slide-bg">
+        </div>
+        
+      </div>
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+      <!-- Navigation Buttons -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </header> 
+
+<!-- Courses Section -->
+<section id="courses" class="courses-section">
+    <h2 class="our">Our Professional Courses</h2>
+    <div class="container">
+      
+      <!-- Course Cards Grid -->
+      <div class="course-grid">
+        <!-- Linux Administration Course -->
+        <div class="course-card">
+          <img src="assets/linux-admin.jpg" alt="Linux Administration Image" class="course-image">
+          <h3>Linux Administration</h3>
+          <p class="course-price">Price: 9999/-</p>
+          <p class="course-duration">Duration: 4 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+  
+        <!-- AWS, Azure, GCP & OCI Course -->
+        <div class="course-card">
+          <img src="assets/cloud-platforms.jpg" alt="AWS, Azure, GCP & OCI Image" class="course-image">
+          <h3>AWS, Azure, GCP & OCI</h3>
+          <p class="course-price">Price: 9999/-</p>
+          <p class="course-duration">Duration: 4 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+  
+        <!-- AWS/Azure with DevOps Course -->
+        <div class="course-card">
+          <img src="assets/aws-azure-devops.jpg" alt="AWS/Azure with DevOps Image" class="course-image">
+          <h3>AWS/Azure with DevOps</h3>
+          <p class="course-price">Price: 19,999/-</p>
+          <p class="course-duration">Duration: 8 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+  
+        <!-- Digital Marketing Course -->
+        <div class="course-card">
+          <img src="assets/digital-marketing.png" alt="Digital Marketing Image" class="course-image">
+          <h3>Digital Marketing</h3>
+          <p class="course-price">Price: 14,999/-</p>
+          <p class="course-duration">Duration: 8 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+  
+        <!-- Networking CCNA & CCNP Course -->
+        <div class="course-card">
+          <img src="assets/networking.jpg" alt="Networking CCNA & CCNP Image" class="course-image">
+          <h3>Networking CCNA & CCNP</h3>
+          <p class="course-price">Price: 19,999/-</p>
+          <p class="course-duration">Duration: 8 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+  
+        <!-- Cyber Security Course -->
+        <div class="course-card">
+          <img src="assets/cyber-security.jpg" alt="Cyber Security Image" class="course-image">
+          <h3>Cyber Security</h3>
+          <p class="course-price">Price: 19,999/-</p>
+          <p class="course-duration">Duration: 8 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+  
+        <!-- Automation Testing Course -->
+        <div class="course-card">
+          <img src="assets/automation-testing.jpg" alt="Automation Testing Image" class="course-image">
+          <h3>Automation Testing</h3>
+          <p class="course-price">Price: 19,999/-</p>
+          <p class="course-duration">Duration: 8 Weeks</p>
+          <a href="register.html" class="btn btn-primary">Register</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+   
+
+<!-- Additional Features Section -->
+<section id="features" class="features-section">
+  <h2 class="our1">Our Training Features</h2>
+<div class="container">
+  <div class="feature-card">
+    <img src="assets/in-time-icon.png" alt="In-Time Completion Icon" class="feature-icon">
+    <h3>In-Time Course Completion</h3>
+    <p>We ensure that our courses are completed on time with structured schedules and clear milestones.</p>
+  </div>
+
+  <div class="feature-card">
+    <img src="assets/state-of-art-icon.png" alt="State-of-the-Art Infrastructure Icon" class="feature-icon">
+    <h3>State-of-the-Art Infrastructure</h3>
+    <p>Our training facilities are equipped with the latest tools and technology for an immersive learning experience.</p>
+  </div>
+
+  <div class="feature-card">
+    <img src="assets/blended-training-icon.png" alt="Blended Training Approach Icon" class="feature-icon">
+    <h3>Blended Training Approach</h3>
+    <p>We combine online and offline training methods for maximum flexibility and better learning outcomes.</p>
+  </div>
+
+  <div class="feature-card">
+    <img src="assets/free-demo-icon.png" alt="Free Demo Sessions Icon" class="feature-icon">
+    <h3>Free Demo Sessions</h3>
+    <p>Experience a free demo session before committing to the course, ensuring you’re confident in your choice.</p>
+  </div>
+</div>
+</section>
+
+
+<!-- What Our Students Say Section -->
+<section id="student-reviews" class="student-reviews-section">
+  <h2 class="our2">What Our Students Says!</h2>
+<div class="container">
+    <!-- Centered Heading -->
+</div>
+<div class="reviews-container">
+  <!-- DevOps Review -->
+  <div class="review-card">
+    <h3>DevOps Course</h3>
+    <p>"The DevOps course at Blujay Techn was exceptional! I gained practical knowledge in cloud technologies, automation, and CI/CD pipelines. The hands-on approach made learning easy and effective."</p>
+    <p class="student-name">- Venkata Sai</p>
+    <p class="suggested-course">Suggested Course: DevOps by Harikrishna</p>
+  </div>
+
+  <!-- Digital Marketing Review -->
+  <div class="review-card">
+    <h3>Digital Marketing Course</h3>
+    <p>"The Digital Marketing course provided by Blujay Techn helped me understand SEO, content marketing, and how to leverage social media for business growth. Highly recommended!"</p>
+    <p class="student-name">- Nazeer Basha</p>
+    <p class="suggested-course">Suggested Course: Digital-marketing by Keerthana</p>
+  </div>
+
+  <!-- Linux Administration Review (New) -->
+  <div class="review-card">
+    <h3>Linux Administration Course</h3>
+    <p>"The Linux Administration course at Blujay Techn was highly informative. I learned system administration, server management, and troubleshooting. The trainers were experienced and helpful."</p>
+    <p class="student-name">- Ramesh</p>
+    <p class="suggested-course">Suggested Course: Linux by Rajesh</p>
+  </div>
+</div>
+</section>
+
+<!-- Scrolling Logos Section -->
+<section class="scrolling-logos">
+<div class="logo-container">
+  <div class="logo-item">
+    <img src="assets/company1.png" alt="Logo 1">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company2.png" alt="Logo 2">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company3.png" alt="Logo 3">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company4.png" alt="Logo 4">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company5.png" alt="Logo 5">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company6.png" alt="Logo 6">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company7.png" alt="Logo 7">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company8.png" alt="Logo 8">
+  </div>
+  <div class="logo-item">
+    <img src="assets/company9.png" alt="Logo 9">
+  </div>
+</div>
+</section>
+
+ 
+
+<footer>
+  <div class="footer-container">
+      <div class="footer-column">
+          <img class="imagelogg" src="assets/logo.png" alt="Logo" style="width: 150px;">
+          <p>Harikrishna Cheruku, the visionary behind BluJay Technologies, brings a wealth of experience in Information Technology. With a commitment to excellence and innovation, he has established BluJay Technologies as a leader in software training.</p>
+      </div>
+      <div class="footer-column">
+          <h3>Quick Links</h3>
+          <ul>
+              
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <h3>Our Policies</h3>
+          <ul>
+              <li><a href="#">Pricing Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Refund Policy</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <h3>Trending Courses</h3>
+          <ul>
+              <li><a href="#">Linux Administration</a></li>
+              <li><a href="#">AWS, Azure, GCP & OCI </a></li>
+              <li><a href="#">AWS/Azure with DevOps</a></li>
+              <li><a href="#">Digital Marketing</a></li>
+              <li><a href="#">Networking CCNA & CCNP</a></li>
+              <li><a href="#">Automation Testing</a></li>
+          </ul>
+      </div>
+      <div class="footer-column">
+          <h3>Contact Us</h3>
+          <p class="contact-info">
+              <span>&#9742;</span> +91 9618721797<br>
+              <span>&#9993;</span> blujaytechnlogies@gmail.com<br>
+              <span>&#127968;</span> 5th Floor, Complex,<br> Beside Aditya Trade Center, Ameerpet,<br> Hyderabad, Telangana 500016.<br>
+          </p>
+          <a href="  https://whatsapp.com/channel/0029VaqpAcZDjiOcGakelF3y 
+          " style="color: #ff4c4c;">Click Here To Join Our WhatsApp Group For Latest Updates</a>
+      </div>
+  </div>
+  <div class="footer-bottom">
+      <p>&copy; 2024 Copyright, BluJay Tech</p>
+      <div class="social-icons">
+          <a href="https://www.facebook.com/profile.php?id=61568372354435
+          " class="fab fa-facebook-f"></a>
+          <a href="https://www.instagram.com/blujaytechnologies/
+          " class="fab fa-instagram"></a>
+          <a href=" https://x.com/BlujayIT
+          " class="fab fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/blujay-technologies-6b4117338/
+          " class="fab fa-linkedin-in"></a>
+      </div>
+  </div>
+</footer>
+
+<a href="#" class="whatsapp-button" onclick="toggleChatBox()">
+  <i class="fab fa-whatsapp"></i> Message Us
+</a>
+
+<div class="whatsapp-chat-box" id="whatsappChatBox">
+  <div class="whatsapp-chat-header">
+      <h4>BluJay Tech</h4>
+      <span class="close-btn" onclick="toggleChatBox()">&times;</span>
+  </div>
+  <div class="whatsapp-chat-body">
+      <p>Hi there, Welcome to BluJay Tech!</p>
+      <p>How can we help you?</p>
+  </div>
+  <div class="whatsapp-chat-footer">
+      <a href="https://wa.me/919618721797" target="_blank">Start Chat</a>
+  </div>
+</div>
+
+
+
+
+
+  <script>
+    // Initialize Swiper
+    const swiper = new Swiper('.swiper', {
+      loop: true, // Loop through slides
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      autoplay: {
+        delay: 5000, // Auto-slide every 5 seconds
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+
+
+<script>
+  const menuIcon = document.getElementById('menu-icon');
+  const navLinks = document.getElementById('nav-links');
+
+  menuIcon.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+  });
+
+  // Ensure the menu becomes hidden when resizing back to a larger screen
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768) {
+      navLinks.classList.remove('show');
+    }
+  });
+</script>
+<script>
+  function toggleChatBox() {
+      const chatBox = document.getElementById('whatsappChatBox');
+      if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+          chatBox.style.display = 'flex';
+      } else {
+          chatBox.style.display = 'none';
+      }
+  }
+</script>
+   
+  
+
+</body>
+</html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footer Section with WhatsApp Bot</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        footer {
+            background-color: #1d1d1d;
+            color: #ffffff;
+            padding: 40px 20px;
+        }
+        .footer-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+        .footer-column {
+            flex: 1;
+            min-width: 250px;
+        }
+        .footer-column h3 {
+            color: #ff4c4c;
+            margin-bottom: 15px;
+        }
+        
+        @media (max-width: 480px) {
+            .footer-column h3 {
+            color: #ff4c4c;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        .footer-column ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex; 
+        }
+        .footer-column .contact-info {
+            line-height: 1.8;
+            text-align: center;
+        }
+        .imagelog{
+             padding-left:140px ;
+        }
+
+
+        }
+
+        .footer-column ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-column ul li {
+            margin-bottom: 10px;
+        }
+        .footer-column ul li a {
+            color: #ffffff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .footer-column ul li a:hover {
+            color: #ff4c4c;
+        }
+        .footer-column .contact-info {
+            line-height: 1.8;
+        }
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+        }
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: #ffffff;
+            font-size: 18px;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            color: #ff4c4c;
+        }
+        .whatsapp-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #25D366;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .whatsapp-button .fa-whatsapp {
+            font-size: 20px;
+        }
+        .whatsapp-chat-box {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 300px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+            display: none;
+            flex-direction: column;
+            overflow: hidden;
+            z-index: 1000;
+        }
+        .whatsapp-chat-header {
+            background-color: #25D366;
+            color: #ffffff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .whatsapp-chat-header h4 {
+            margin: 0;
+            font-size: 16px;
+        }
+        .whatsapp-chat-header .close-btn {
+            cursor: pointer;
+            font-size: 18px;
+        }
+        .whatsapp-chat-body {
+            padding: 10px;
+            font-size: 14px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .whatsapp-chat-footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+        }
+        .whatsapp-chat-footer a {
+            background-color: #25D366;
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <img class="imagelog" src="assets/logo.png" alt="Logo" style="width: 150px;">
+                <p>Harikrishna Cheruku, the visionary behind BluJay Technologies, brings a wealth of experience in Information Technology. With a commitment to excellence and innovation, he has established BluJay Technologies as a leader in software training.</p>
+            </div>
+            <div class="footer-column">
+                <h3>Quick Links</h3>
+                <ul>
+                    
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Our Policies</h3>
+                <ul>
+                    <li><a href="#">Pricing Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Trending Courses</h3>
+                <ul>
+                    <li><a href="#">Linux Administration</a></li>
+                    <li><a href="#">AWS, Azure, GCP & OCI </a></li>
+                    <li><a href="#">AWS/Azure with DevOps</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Networking CCNA & CCNP</a></li>
+                    <li><a href="#">Automation Testing</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Contact Us</h3>
+                <p class="contact-info">
+                    <span>&#9742;</span> +91 9618721797<br>
+                    <span>&#9993;</span> blujaytechnlogies@gmail.com<br>
+                    <span>&#127968;</span> 5th Floor, Complex,<br> Beside Aditya Trade Center, Ameerpet,<br> Hyderabad, Telangana 500016.<br>
+                </p>
+                <a href="  https://whatsapp.com/channel/0029VaqpAcZDjiOcGakelF3y 
+                " style="color: #ff4c4c;">Click Here To Join Our WhatsApp Group For Latest Updates</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Copyright, BluJay Tech</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=61568372354435
+                " class="fab fa-facebook-f"></a>
+                <a href="https://www.instagram.com/blujaytechnologies/
+                " class="fab fa-instagram"></a>
+                <a href=" https://x.com/BlujayIT
+                " class="fab fa-twitter"></a>
+                <a href="https://www.linkedin.com/in/blujay-technologies-6b4117338/
+                " class="fab fa-linkedin-in"></a>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="whatsapp-button" onclick="toggleChatBox()">
+        <i class="fab fa-whatsapp"></i> Message Us
+    </a>
+
+    <div class="whatsapp-chat-box" id="whatsappChatBox">
+        <div class="whatsapp-chat-header">
+            <h4>BluJay Tech</h4>
+            <span class="close-btn" onclick="toggleChatBox()">&times;</span>
+        </div>
+        <div class="whatsapp-chat-body">
+            <p>Hi there, Welcome to BluJay Tech!</p>
+            <p>How can we help you?</p>
+        </div>
+        <div class="whatsapp-chat-footer">
+            <a href="https://wa.me/919618721797" target="_blank">Start Chat</a>
+        </div>
+    </div>
+
+    <script>
+        function toggleChatBox() {
+            const chatBox = document.getElementById('whatsappChatBox');
+            if (chatBox.style.display === 'none' || chatBox.style.display === '') {
+                chatBox.style.display = 'flex';
+            } else {
+                chatBox.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+</html>
+

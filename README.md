@@ -1,1 +1,1 @@
-# blujay3.0
+# blujaytechnologies

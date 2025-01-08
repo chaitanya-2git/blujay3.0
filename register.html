@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - Blujay Techn</title>
+  <link rel="stylesheet" href="register.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="registration-container">
+    <h1>Register for Our Courses</h1>
+    <form id="registerForm" class="registration-form">
+      <div class="form-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+      </div>
+      <div class="form-group">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+      </div>
+      <div class="form-group">
+        <label for="course">Select Course</label>
+        <select id="course" name="course" required>
+          <option value="" disabled selected>Select a course</option>
+          <option value="Linux Administration">Linux Administration</option>
+          <option value="Aws,Azure,GCP & OCI">AWS,Azure,GCP & OCI</option>
+          <option value="AWS/Azure With DevOps">AWS/Azure With DevOps</option>
+          <option value="Digital Marketing">Digital Marketing</option>
+          <option value="Networking CCNA & CCNP">Networking CCNA & CCNP</option>
+          <option value="Security">Cyber Security</option>
+          <option value="Automation Testing">Automation Testing</option>
+          <option value="sap">Sap all Modules</option>
+          <option value="mern-stack">Mern stack</option>
+          <option value="java-fullstack">Java Fullstack</option>
+          <option value="python-fullstack">Python Fullstack</option>
+          <option value="data-science">Data Science</option>
+          <option value="ai-ml">AI & ML</option>
+          <option value="sales-force">Sales Force</option>
+        </select>
+         
+      </div>
+      <div class="form-group">
+        <span><button    type="submit" class="btn">Register Now</button></span>
+      </div>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

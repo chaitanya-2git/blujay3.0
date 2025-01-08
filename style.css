@@ -1,0 +1,1504 @@
+  /* General Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Darker text for contrast */
+    background-color: #ffffff; /* White background */
+    margin: 0;
+  }
+  
+  /* Contact Section */
+  .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .contact-section .container {
+    max-width: 800px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  /* General Styles */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #f1f1f1; /* Light font color for dark background */
+    background-color: #121212; /* Dark background */
+  }
+  
+  
+  
+  /* Contact Section */
+  .contact-section {
+    background-color: #121212;
+    color: #fff;
+    padding: 80px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .contact-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .contact-section p {
+    font-size: 1.1rem;
+    margin-bottom: 40px;
+  }
+  
+  .contact-section .container {
+    max-width: 800px; /* Max width of the form */
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contact-section .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-section .contact-form .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .contact-section .contact-form input, 
+  .contact-section .contact-form select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    background-color: #333;
+    border: 1px solid #555;
+    color: #fff;
+    font-size: 1rem;
+    border-radius: 5px;
+  }
+  
+  .contact-section .contact-form button {
+    background-color: #ff5722;
+    color: #121212;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: center;
+    width: auto;
+  }
+  
+  .contact-section .contact-form button:hover {
+    background-color: #ff3d00;
+  }
+  
+  /* Footer */
+  .footer {
+    background: #1a1a1a;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  /* Social Navbar */
+  .social-navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  .social-navbar .container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .social-links {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .social-links li {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  /* Free Source Section */
+  .free-source-section {
+     /* Same gradient as Hero Section */
+    color: #000; /* Black text color */
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin: 50px auto;
+    
+  }
+  
+  .free-source-section h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #000; /* Black text color */
+  }
+  
+  .free-source-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #000; /* Black text color */
+  }
+  
+  .free-source-section .btn-youtube {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 111, 97, 0.4);
+  }
+  
+  .free-source-section .btn-youtube:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 111, 97, 0.6);
+  }
+  
+  .free-source-section .youtube-icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .free-source-section h2 {
+      font-size: 1.8rem;
+    }
+  
+    .free-source-section p {
+      font-size: 1rem;
+    }
+  
+    .free-source-section .btn-youtube {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  /* Blujay Techn Info Section */
+  .blujay-info {
+    background-color: #ffffff;  /* White background */
+    padding: 60px 20px;
+    margin-top: 20px;
+  }
+  
+  .blujay-info .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Blujay Logo and Description */
+  .logo-description {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .blujay-logo {
+    width: 150px;  /* Adjust logo size */
+    margin-bottom: 20px;
+  }
+  
+  .logo-description p {
+    font-size: 1.1rem;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  
+  
+  /* Location Section */
+  .location-section {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .location-section h3 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .location-section ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .location-section li {
+    font-size: 1.1rem;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+  }
+  
+  .slide-content {
+    z-index: 10;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .slide-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(70%);
+  }
+  
+  /* General Styles */
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333; /* Darker text for readability */
+    background-color: #ffffff; /* White background */
+    margin: 0;
+  }
+  
+  
+  
+  /* Footer */
+  .footer {
+    background: #0078d7;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Removed Extra Containers */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  /* Free Source Section */
+  .free-source-section {
+    background: linear-gradient(135deg, #a8c0ff, #3f4c6b); /* Same gradient as Hero Section */
+    color: #000; /* Black text color for readability */
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 12px;
+    margin: 50px auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .free-source-section .container {
+    background-color: #ffffff; /* White background for the container */
+    color: #333; /* Darker text for better readability */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .free-source-section h2 {
+    font-size: 2.3rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333; /* Dark text color */
+  }
+  
+  .free-source-section p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    color: #333; /* Dark text for readability */
+  }
+  
+  .free-source-section .btn-youtube {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #ff6f61;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 10px rgba(255, 111, 97, 0.4);
+  }
+  
+  .free-source-section .btn-youtube:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 111, 97, 0.6);
+  }
+  
+  .free-source-section .youtube-icon {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .free-source-section h2 {
+      font-size: 1.8rem;
+    }
+  
+    .free-source-section p {
+      font-size: 1rem;
+    }
+  
+    .free-source-section .btn-youtube {
+      font-size: 0.9rem;
+      padding: 10px 20px;
+    }
+  }
+  
+  
+  
+  /* Features Section */
+  .features-section {
+    background-color: #fff;
+    padding: 50px 0;
+  }
+  
+  .features-section .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;  /* Adds gap between the feature cards */
+  }
+  
+  .feature-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 23%; /* Each card will take up 23% of the width */
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+  }
+  
+  .feature-card img.feature-icon {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 20px;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .feature-card {
+      width: 45%;  /* Adjust to 45% width on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feature-card {
+      width: 100%;  /* Full width on very small screens */
+    }
+  }
+  
+  
+  /* Navigation Bar */
+  .navbar {
+    background-color: #333;
+    padding: 15px 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust logo size as needed */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    background-color: #444;
+    border-radius: 4px;
+  }
+  
+  /* Style for the Register Now Button */
+  .nav-links .register-btn {
+    background-color: #ff5722; /* Button color */
+    color: white;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .nav-links .register-btn:hover {
+    background-color: #e64a19;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .nav-links {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .nav-links .register-btn {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  /* General Styles for Navigation Bar */
+  .navbar {
+    background-color: white; /* White background for navbar */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #ddd;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .logo img {
+    height: 50px; /* Adjust logo size */
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    position: relative;
+  }
+  
+  .nav-links a {
+    color: black; /* Black text for links */
+    text-decoration: none;
+    padding: 8px 15px;
+    font-weight: bold;
+  }
+  
+  /* Dropdown Menu Styles */
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white; /* White background for dropdown */
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    z-index: 1000;
+  }
+  
+  .dropdown-menu li {
+    text-align: left;
+  }
+  
+  .dropdown-menu a {
+    display: block;
+    padding: 8px 15px;
+    color: black; /* Black text for dropdown links */
+    text-decoration: none;
+  }
+  
+  /* Show Dropdown on Hover */
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  /* Register Button Styling */
+  .register-btn {
+    background-color: #e60000; /* Red background for button */
+    color: white; /* White text for the button */
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  
+  /* Import Google Font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+  
+  /* General Section Styling */
+  .courses-section {
+    padding: 40px 20px;
+    background-color: #f9f9f9;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .courses-section .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  
+  /* Grid Layout for Courses */
+  .course-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  
+  
+  /* Slider Section */
+  .hero-section {
+    position: relative;
+    height: 400px; /* Adjust the height as needed */
+    overflow: hidden;
+  }
+  
+  /* Swiper Slide */
+  .swiper-slide {
+    height: 100%; /* Ensure the slide takes up the full height of the container */
+  }
+  
+  /* Slide Content */
+  .slide-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .swiper-slide img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Center the section heading */
+  .section-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Center the section heading */
+  .section-heading {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the review section */
+  .student-reviews-section {
+    padding: 50px 0;
+  }
+  
+  .reviews-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .review-card {
+    width: 250px;  /* Smaller width for cards */
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;  /* Center the content inside each card */
+  }
+  
+  .review-card h3 {
+    font-size: 1.25em;
+    margin-bottom: 10px;
+  }
+  
+  .review-card p {
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .student-name {
+    font-style: italic;
+  }
+  
+  .suggested-course {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  
+  /* Scrolling Logos Section */
+  .scrolling-logos {
+    padding: 30px 0;
+    background-color: #f4f4f4;  /* Optional background color */
+    overflow: hidden;  /* Hide the scrollbar */
+    width: 100%;  /* Full width */
+  }
+  
+  .logo-container {
+    display: flex;
+    animation: scroll-logos 20s linear infinite;  /* Infinite scrolling animation */
+  }
+  
+  .logo-item {
+    margin-right: 30px;  /* Adjust spacing between logos */
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-item img {
+    max-width: 100px;  /* Adjust the size of the logos */
+    height: auto;
+  }
+  
+  /* Define the scrolling animation */
+  @keyframes scroll-logos {
+    0% {
+      transform: translateX(100%); /* Start from the right */
+    }
+    100% {
+      transform: translateX(-100%); /* Scroll to the left */
+    }
+  }
+  
+  
+  
+  
+  
+  
+    /* Base Styles */
+    .navbar {
+      background-color: white;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .container {
+      display: flex;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .logo img {
+      height: 40px;
+    }
+  
+    .menu-icon {
+      display: none;
+      font-size: 24px;
+      cursor: pointer;
+    }
+  
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+      margin: 0;
+      padding: 0;
+    }
+  
+    .nav-links a {
+      text-decoration: none;
+      color: rgb(15, 15, 15);
+      font-weight: 500;
+    }
+  
+    .register-btn {
+      background-color: #007bff;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+  
+    .dropdown-menu {
+      display: none;
+      position: absolute;
+      background-color: white;
+      list-style: none;
+      margin: 0;
+      padding: 10px 0;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+  
+    .dropdown:hover .dropdown-menu {
+      display: block;
+    }
+  
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      .menu-icon {
+        display: block;
+        color: #0a0a0a;
+      }
+      .nav-links .register-btn{
+        width: auto;
+        height: 10px;
+      }
+  
+      .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: rgb(14, 119, 180);
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        color: white;
+      }
+  
+      .nav-links a {
+        color: white;
+        padding: 10px;
+      }
+  
+      .nav-links.show {
+        display: flex;
+      }
+  
+      .dropdown-menu {
+        position: static;
+        background-color: rgb(241, 239, 239);
+      }
+  
+      .dropdown-menu a {
+        color: rgb(6, 6, 6);
+      }
+    }
+  
+  
+  
+  
+   
+  
+  
+  
+  /* General Styles for the Swiper */
+  .hero-section {
+    position: relative;
+    width: 100%;
+    height: calc(60vh - 60px); /* Deduct navigation bar height (adjust as needed) */
+    overflow: hidden;
+    margin-top: 60px; /* Add space to avoid overlapping with the navigation bar */
+  }
+  
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+  }
+  
+  .swiper-slide {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .slide-content {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 2rem;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  .slide-bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Navigation Buttons */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+  }
+  
+  /* Pagination */
+  .swiper-pagination {
+    bottom: 10px;
+  }
+  
+  .swiper-pagination-bullet {
+    background: white;
+    opacity: 0.7;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background: #007BFF;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 1024px) {
+    .hero-section {
+      height: calc(60vh - 100px); /* Reduce height for tablets */
+    }
+  
+    .slide-content {
+      font-size: 1.8rem; /* Adjust font size */
+      padding: 10px;
+    }
+  
+    .swiper-button-next,
+    .swiper-button-prev {
+      font-size: 18px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      height: calc(35vh - 100px); /* Further reduce height for small screens */
+    }
+  
+    .slide-content {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  
+    .swiper-button-next,
+    .swiper-button-prev {
+      display: none; /* Hide navigation buttons on very small screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-section {
+      height: calc(45vh - 250px); /* Mobile view height */
+    }
+  
+    .slide-content {
+      font-size: 1.2rem; /* Smaller font size for mobile */
+    }
+  
+    .swiper-pagination {
+      bottom: 5px; /* Adjust pagination position */
+    }
+  
+    .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+    }
+  }
+  
+  /* Ensure Navigation Bar is Fixed */
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px; /* Set height of the navigation bar */
+    z-index: 1000;
+    background-color: white; /* Background color for the navbar */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+
+
+  /* Course Grid Layout */
+.course-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns by default */
+    gap: 20px;
+  }
+  
+  .course-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease;
+  }
+  
+  .course-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .course-card h3 {
+    font-size: 1.25rem;
+    margin-top: 15px;
+  }
+  
+  .course-card .course-price,
+  .course-card .course-duration {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+  
+  .course-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d7;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  .course-card .btn:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Mobile View Adjustments */
+  @media (max-width: 768px) {
+    .courses-section h2 {
+      font-size: 1.5rem;
+    }
+  
+    .course-grid {
+      grid-template-columns: 1fr 1fr; /* 2 columns for tablets/smaller screens */
+      gap: 15px;
+    }
+  
+    .course-card {
+      padding: 15px;
+      transition: transform 0.2s ease;
+    }
+  
+    .course-card img {
+      height: 180px; /* Smaller image size for mobile */
+    }
+  
+    .course-card h3 {
+      font-size: 1.1rem;
+    }
+  
+    .course-card .course-price,
+    .course-card .course-duration {
+      font-size: 0.9rem;
+    }
+  
+    .course-card .btn {
+      font-size: 0.9rem;
+      padding: 8px 15px;
+    }
+  }
+  
+  /* Extra small screen sizes (mobile portrait) */
+  @media (max-width: 480px) {
+    .course-grid {
+      grid-template-columns: 1fr;
+      display: flex; /* Use Flexbox for centering */
+      flex-direction: column; /* Stack items vertically */
+      justify-content: center; /* Center items vertically */
+      align-items: center; /* Center items horizontally */
+      text-align: center; /* Align text inside the card */
+      margin: 0 auto;
+       
+    }
+  
+    .course-card {
+      padding:20px ;
+    }
+  
+    .course-card img {
+      height: 165px; /* Even smaller image for small screens */
+    }
+  
+    .course-card h3 {
+      font-size: 1rem;
+    }
+  
+    .course-card .course-price,
+    .course-card .course-duration {
+      font-size: 0.8rem;
+    }
+  
+    .course-card .btn {
+      font-size: 0.85rem;
+      padding: 6px 12px;
+    }
+  }
+
+  .our, .our1, .our2{
+    color: #005bb5;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+   
+  
+
+
+
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+footer {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    padding: 40px 20px;
+}
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-column {
+    flex: 1;
+    min-width: 250px;
+}
+.footer-column h3 {
+    color: #ff4c4c;
+    margin-bottom: 15px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+.footer-column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-column ul li a:hover {
+    color: #ff4c4c;
+}
+.footer-column .contact-info {
+    line-height: 1.8;
+}
+
+.imagelogg {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 480px) {
+    .footer-column h3 {
+        color: #ff4c4c;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .footer-column ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: color 0.3s;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .footer-column .contact-info {
+        line-height: 1.8;
+        text-align: center;
+    }
+}
+
+/* Responsive adjustments for medium screens (e.g., tablets) */
+@media screen and (max-width: 1024px) {
+    
+}
+
+/* Responsive adjustments for smaller tablets and mobile devices */
+@media screen and (max-width: 768px) {
+    .footer-column {
+        flex: 1 1 100%;
+        text-align: center;
+    }
+
+    .footer-column h3 {
+        font-size: 1.1rem;
+    }
+}
+
+/* Adjustments for 13–14 inch laptop screens */
+@media screen and (min-width: 1025px) and (max-width: 1366px) {
+   
+  .footer-column h3 {
+    color: #ff4c4c;
+    margin-bottom: 15px;
+    text-align: center;
+    
+}
+.footer-column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.footer-column .contact-info {
+    line-height: 1.8;
+    text-align: center;
+}
+}
+
+
+
+
+
+
+
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+.social-icons a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+}
+.social-icons a:hover {
+    color: #ff4c4c;
+}
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25D366;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.whatsapp-button .fa-whatsapp {
+    font-size: 20px;
+}
+.whatsapp-chat-box {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 300px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 1000;
+}
+.whatsapp-chat-header {
+    background-color: #25D366;
+    color: #ffffff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.whatsapp-chat-header h4 {
+    margin: 0;
+    font-size: 16px;
+}
+.whatsapp-chat-header .close-btn {
+    cursor: pointer;
+    font-size: 18px;
+}
+.whatsapp-chat-body {
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #333;
+}
+.whatsapp-chat-footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+.whatsapp-chat-footer a {
+    background-color: #25D366;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+/* YouTube Tutorials Section */
+.youtube-tutorials-section {
+  background-color: #f9f9f9; /* Light background to differentiate */
+  padding: 20px 0;
+  text-align: center;
+}
+
+.youtube-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px; /* Space between logo and text */
+}
+
+.youtube-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ff0000; /* YouTube red */
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.youtube-logo {
+  width: 105px;
+  height: 80px;
+}
+
+.youtube-link:hover span {
+  text-decoration: underline; /* Underline text on hover */
+}
+
+.youtube-link:hover .youtube-logo {
+  transform: scale(1.1); /* Slightly enlarge the logo on hover */
+  transition: transform 0.3s ease-in-out;
+}
+
+
+
+
+/* Pop-Up Overlay */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent dark background */
+  display: none; /* Initially hidden */
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+/* Pop-Up Content */
+.popup-content {
+  background-color: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.popup-content h2 {
+  margin: 0 0 10px;
+  font-size: 1.5rem;
+}
+
+.popup-content p {
+  font-size: 1rem;
+  margin: 0 0 15px;
+}
+
+.popup-link {
+  text-decoration: none;
+  color: #fff;
+  background-color: #ff0000; /* YouTube red */
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.popup-link:hover {
+  background-color: #cc0000; /* Slightly darker red on hover */
+}
+
+/* Close Button */
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+  color: #333;
+}
+
+/* Pop-Up Image */
+.popup-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 15px; /* Adds space below the image */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Adds a shadow for a stylish look */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
